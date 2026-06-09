@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Policy Analyzer</title>
+</head>
+<body>
+
+<h2>Enter Website URL</h2>
+
+<form action="/analyze" method="post">
+    <input type="text" name="url" placeholder="Enter website URL" required>
+
+    <br><br>
+
+    <label>Select Language:</label>
+    <select name="lang">
+        <option value="en">English</option>
+        <option value="ta">Tamil</option>
+        <option value="hi">Hindi</option>
+        <option value="fr">French</option>
+    </select>
+
+    <br><br>
+
+    <button type="submit">Analyze</button>
+</form>
+
+
+</body>
+</html>
